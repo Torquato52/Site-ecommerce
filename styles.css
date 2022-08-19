@@ -1,0 +1,58 @@
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo {
+    margin: 0 auto;
+}
+
+.banner {
+    height: 140px;
+    background-color: black;
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+}
+
+.menu-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-lista{
+    float: left;
+    border-right: 1px solid white;
+
+}
+
+.menu-lista-terceiro{
+    border-right: none;
+}
+
+.menu-lista a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-lista:hover {
+    background-color: rgb(56,151,253);
+}
